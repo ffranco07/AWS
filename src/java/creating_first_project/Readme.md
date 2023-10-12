@@ -585,10 +585,7 @@ If this is your first time accessing this service, you see the **Welcome to AWS 
 12. Add a variable named **AWS_SECRET_ACCESS_KEY**, and then specify your secret key value.
 13. Add EC2 role (aws-elasticbeanstalk-ec2-role) via IAM console as follows:
 
-**Creating an instance profile**
-An instance profile is a wrapper around a standard IAM role that allows an EC2 instance to assume the role. You can create additional instance profiles to customize permissions for different applications. Or you can create an instance profile that doesn't grant permissions for worker tier or ECS managed Docker environments, if you don't use those features.
-
-To create an instance profile
+## To create an instance profile
 * 1. Open the Roles page in the IAM console.
 * 2. Choose Create role.
 * 3. Under Trusted entity type, choose AWS service.
