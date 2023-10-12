@@ -1,0 +1,6 @@
+com\example\handlingformsubmission\GreetingItems.class
+com\example\handlingformsubmission\DynamoDBEnhanced.class
+com\example\handlingformsubmission\Greeting.class
+com\example\handlingformsubmission\PublishTextSMS.class
+com\example\handlingformsubmission\GreetingController.class
+com\example\GreetingApplication.class
