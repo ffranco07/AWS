@@ -600,7 +600,7 @@ If this is your first time accessing this service, you see the **Welcome to AWS 
 
 **Note:** For more information about setting variables, see [Environment properties and other software settings](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-softwaresettings.html).
 
-13. After the variables are configured, you will see the URL for accessing the application.
+14. After the variables are configured, you will see the URL for accessing the application.
 
 ![AWS Tracking Application](images/greet14.png)
 
