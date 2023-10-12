@@ -589,16 +589,17 @@ If this is your first time accessing this service, you see the **Welcome to AWS 
 An instance profile is a wrapper around a standard IAM role that allows an EC2 instance to assume the role. You can create additional instance profiles to customize permissions for different applications. Or you can create an instance profile that doesn't grant permissions for worker tier or ECS managed Docker environments, if you don't use those features.
 
 To create an instance profile
-	1. Open the Roles page in the IAM console.
-	2. Choose Create role.
-	3. Under Trusted entity type, choose AWS service.
-	4. Under Use case, choose EC2.
-	5. Choose Next.
-	6. Attach the appropriate managed policies provided by Elastic Beanstalk and any additional policies that provide permissions that your application needs.  Attach policies: AWSElasticBeanstalkWebTier AWSElasticBeanstalkWorkerTier and AWSElasticBeanstalkMulticontainerDocker.
-	7. Choose Next.
-	8. Enter a name for the role.
-	9. (Optional) Add tags to the role.
-	10. Choose Create role.	 
+* 1. Open the Roles page in the IAM console.
+* 2. Choose Create role.
+* 3. Under Trusted entity type, choose AWS service.
+* 4. Under Use case, choose EC2.
+* 5. Choose Next.
+* 6. Attach the appropriate managed policies provided by Elastic Beanstalk and any additional policies that provide permissions that your application needs.  
+* 7. Attach policies: AWSElasticBeanstalkWebTier AWSElasticBeanstalkWorkerTier and AWSElasticBeanstalkMulticontainerDocker.
+* 8. Choose Next.
+* 9. Enter a name for the role.
+* 10. (Optional) Add tags to the role.
+* 11. Choose Create role.	 
 
 **Note:** For more information about setting variables, see [Environment properties and other software settings](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-softwaresettings.html).
 
